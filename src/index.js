@@ -7,7 +7,7 @@ import {Provider} from "react-redux"
 import {BrowserRouter} from "react-router-dom"
 import store from "./redux/store"
 import axios from "axios"
-axios.defaults.baseURL= "http://localhost:5000/api"
+axios.defaults.baseURL= "https://e-commerce-server-28qf.onrender.com/api"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store} >
